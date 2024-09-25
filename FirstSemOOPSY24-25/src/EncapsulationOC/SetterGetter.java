@@ -13,11 +13,11 @@ public class SetterGetter {
     private String firstName, lastName;
     private int age;
     
-    /*Overloading is creating same method but differs in parameter one is blank the other has 
+    //Overloading is creating same method but differs in parameter one is blank the other has 
     public SetterGetter(){
         this.firstName = "firstSam";
     }
-    */
+    
     
     public SetterGetter(String firstName, String lastName, int age){
         this.firstName = firstName;
