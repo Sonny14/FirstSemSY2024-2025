@@ -10,9 +10,9 @@ package sep9Act;
  */
 public class Cars {
     
-    int chassisNum;;
-    String model;
-    final String brand = "Honda";
+    private int chassisNum;
+    private String model;
+    private final String brand = "Honda";
     
     public Cars(){
         this.chassisNum = 6978;
@@ -35,7 +35,6 @@ public class Cars {
     }
     
     public void setInfo(int chassisNum){
-        this.model = "Miyata";
         this.chassisNum = chassisNum;
         System.out.println("\nChassis number has been updated");
     }

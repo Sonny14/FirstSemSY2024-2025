@@ -19,8 +19,8 @@ public class SetterGetter {
     }
     
     
-    public SetterGetter(String firstName, String lastName, int age){
-        this.firstName = firstName;
+    public SetterGetter(String lastName, int age){
+        //this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
     }

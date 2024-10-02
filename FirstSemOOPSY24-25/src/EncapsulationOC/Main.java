@@ -11,11 +11,11 @@ package EncapsulationOC;
 public class Main {
     public static void main(String[] args) {
         
-        //In this scenario the first name that has been initialized in the SetterGetter class will become null
+        //In this scenario the first name that has been initialized in the SetterGetter(); construcor will become null
         //after the new instance of obj1 which is called data loss.
         SetterGetter obj1 = new SetterGetter();
         obj1.displayInfo();
-        obj1 = new SetterGetter("","palma",19);
+        obj1 = new SetterGetter("palma",19);
         obj1.displayInfo();
         
 //        
